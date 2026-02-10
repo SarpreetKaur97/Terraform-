@@ -6,4 +6,7 @@ variable "vpc_name" {
   type = string
   default = "vpc_prod"
 }
-variable "
+variable "vpc_id"{
+  type = string
+}
+
